@@ -153,31 +153,31 @@ $(document).ready(function () {
 
     const carouselItems = [
         {
-            src: "img/perivallo.png",
+            src: "img/perivallo.PNG",
             name: "Perivallo",
             github: "https://github.com/FaridAliyev/Perivallo-Social-Media-App",
             link: "http://perivallo.somee.com"
         },
         {
-            src: "img/eduhome.png",
+            src: "img/eduhome.PNG",
             name: "Eduhome",
             github: "https://github.com/FaridAliyev/Eduhome-ASP.NET-Core-Project",
             link: null
         },
         {
-            src: "img/fiorello.png",
+            src: "img/fiorello.PNG",
             name: "Fiorello",
             github: "https://github.com/FaridAliyev/Shopping-Website-FrontEnd-Project",
             link: null
         },
         {
-            src: "img/test-app.png",
+            src: "img/test-app.PNG",
             name: "TestApp",
             github: "https://github.com/FaridAliyev/Test-App",
             link: "https://faridaliyev.github.io/Test-App/index.html"
         },
         {
-            src: "img/portfolio.png",
+            src: "img/portfolio.PNG",
             name: "Portfolio",
             github: "https://github.com/FaridAliyev/Portfolio-for-bro",
             link: "https://azeraliyev11.github.io/Portfolio/"
