@@ -102,8 +102,8 @@ $(document).ready(function () {
         $('.bg-theme').each(function () {
             $(this).css("background", color);
         });
-        changeCss('.hover-theme:hover',`color:${color}!important`);
-        changeCss('.white-hover-theme:hover',`color:${color}!important`);
+        changeCss('.hover-theme:hover', `color:${color}!important`);
+        changeCss('.white-hover-theme:hover', `color:${color}!important`);
         $('.fill-theme').each(function () {
             $(this).css("fill", color);
         });
@@ -122,9 +122,29 @@ $(document).ready(function () {
     });
 
     // skrollr
-    skrollr.init({
-        smoothScrolling: false
-    });
+
+    function checkSkrollr() {
+        // Test here to check if on desktop / large screens.
+        if ($(window).width() > 1024) {
+            // Save the instance of Skrollr to the Window.
+            window.skrollrInstance = skrollr.init({
+                forceHeight: false,
+                smoothScrolling: false
+            });
+            // If not on a large screen.
+        } else {
+            //  If Skrollr is NOT undefined, let's do the work.
+            if (window.skrollrInstance !== undefined) {
+                // Use Skrollr's destroy() method on the instance.
+                window.skrollrInstance.destroy();
+                // Now set the variable to be completely undefined.
+                window.skrollrInstance = undefined;
+            }
+        }
+    }
+
+    checkSkrollr();
+    $(window).resize(checkSkrollr);
 
     // slick
     $('.portfolio-wrapper').slick({
@@ -270,18 +290,18 @@ $(document).ready(function () {
 
     skillItems.forEach(function (value, index) {
         if (index % 2 === 0) {
-            if(value.icon){
+            if (value.icon) {
                 $('.skills-left').append(`<span class="color-theme">${value.icon} ${value.name}</span>`);
             }
-            else{
+            else {
                 $('.skills-left').append(`<span class="color-theme">${value.name}</span>`);
             }
         }
-        else{
-            if(value.icon){
+        else {
+            if (value.icon) {
                 $('.skills-right').append(`<span class="color-theme">${value.icon} ${value.name}</span>`);
             }
-            else{
+            else {
                 $('.skills-right').append(`<span class="color-theme">${value.name}</span>`);
             }
         }
@@ -289,7 +309,7 @@ $(document).ready(function () {
 
     // footer
 
-    $('.btt-btn').click(function(){
+    $('.btt-btn').click(function () {
         $(window).scrollTop(0);
     });
 });
