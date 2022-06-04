@@ -176,7 +176,7 @@ $(document).ready(function () {
             src: "img/perivallo.PNG",
             name: "Perivallo",
             github: "https://github.com/FaridAliyev/Perivallo-Social-Media-App",
-            link: "http://perivallo.somee.com"
+            link: null
         },
         {
             src: "img/eduhome.PNG",
@@ -187,7 +187,7 @@ $(document).ready(function () {
         {
             src: "img/fiorello.PNG",
             name: "Fiorello",
-            github: "https://github.com/FaridAliyev/Shopping-Website-FrontEnd-Project",
+            github: "https://github.com/FaridAliyev/Fiorello-FrontEndProject",
             link: null
         },
         {
@@ -251,12 +251,24 @@ $(document).ready(function () {
             icon: `<i class="fab fa-sass"></i>`
         },
         {
+            name: "BOOTSTRAP",
+            icon: `<i class="fa-brands fa-bootstrap"></i>`
+        },
+        {
             name: "JAVASCRIPT",
-            icon: `<i class="uil uil-java-script"></i>`
+            icon: `<i class="fa-brands fa-js-square"></i>`
         },
         {
             name: "JQUERY",
             icon: null
+        },
+        {
+            name: "AJAX",
+            icon: null
+        },
+        {
+            name: "REACT",
+            icon: `<i class="fa-brands fa-react"></i>`
         },
         {
             name: "NPM",
@@ -275,17 +287,21 @@ $(document).ready(function () {
             icon: null
         },
         {
+            name: "RESTful APIs",
+            icon: `<i class="fa-solid fa-server"></i>`
+        },
+        {
             name: "MS SQL",
             icon: `<i class="fas fa-database"></i>`
         },
-        {
-            name: "C",
-            icon: null
-        },
-        {
-            name: "C++",
-            icon: null
-        },
+        // {
+        //     name: "C",
+        //     icon: null
+        // },
+        // {
+        //     name: "C++",
+        //     icon: null
+        // },
     ]
 
     skillItems.forEach(function (value, index) {
