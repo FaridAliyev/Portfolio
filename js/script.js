@@ -173,6 +173,18 @@ $(document).ready(function () {
 
     const carouselItems = [
         {
+            src: "img/stitchfix.PNG",
+            name: "Stitchfix",
+            github: "https://github.com/FaridAliyev/Stitchfix",
+            link: "https://stitchfixx.herokuapp.com/"
+        },
+        {
+            src: "img/deals.PNG",
+            name: "Deals Shop",
+            github: "https://github.com/FaridAliyev/Deals-Shop",
+            link: null
+        },
+        {
             src: "img/perivallo.PNG",
             name: "Perivallo",
             github: "https://github.com/FaridAliyev/Perivallo-Social-Media-App",
