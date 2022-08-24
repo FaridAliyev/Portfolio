@@ -173,6 +173,12 @@ $(document).ready(function () {
 
     const carouselItems = [
         {
+            src: "img/movie.PNG",
+            name: "Movie App",
+            github: "https://github.com/FaridAliyev/Movie-App",
+            link: "https://fa-movie.herokuapp.com/"
+        },
+        {
             src: "img/stitchfix.PNG",
             name: "Stitchfix",
             github: "https://github.com/FaridAliyev/Stitchfix",
@@ -204,7 +210,7 @@ $(document).ready(function () {
         },
         {
             src: "img/test-app.PNG",
-            name: "TestApp",
+            name: "Test App",
             github: "https://github.com/FaridAliyev/Test-App",
             link: "https://faridaliyev.github.io/Test-App/index.html"
         },
@@ -274,13 +280,17 @@ $(document).ready(function () {
             name: "JQUERY",
             icon: null
         },
-        {
-            name: "AJAX",
-            icon: null
-        },
+        // {
+        //     name: "AJAX",
+        //     icon: null
+        // },
         {
             name: "REACT",
             icon: `<i class="fa-brands fa-react"></i>`
+        },
+        {
+            name: "REDUX",
+            icon: null
         },
         {
             name: "NPM",
