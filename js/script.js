@@ -176,13 +176,13 @@ $(document).ready(function () {
             src: "img/movie.PNG",
             name: "Movie App",
             github: "https://github.com/FaridAliyev/Movie-App",
-            link: "https://fa-movie.herokuapp.com/"
+            link: null
         },
         {
             src: "img/stitchfix.PNG",
             name: "Stitchfix",
             github: "https://github.com/FaridAliyev/Stitchfix",
-            link: "https://stitchfixx.herokuapp.com/"
+            link: null
         },
         {
             src: "img/deals.PNG",
@@ -273,6 +273,10 @@ $(document).ready(function () {
             icon: `<i class="fa-brands fa-bootstrap"></i>`
         },
         {
+            name: "MATERIAL UI",
+            icon: null
+        },
+        {
             name: "JAVASCRIPT",
             icon: `<i class="fa-brands fa-js-square"></i>`
         },
@@ -292,9 +296,13 @@ $(document).ready(function () {
             name: "REDUX",
             icon: null
         },
+        // {
+        //     name: "NPM",
+        //     icon: `<i class="fab fa-npm"></i>`
+        // },
         {
-            name: "NPM",
-            icon: `<i class="fab fa-npm"></i>`
+            name: "TYPESCRIPT",
+            icon: null
         },
         {
             name: "GIT",
@@ -309,11 +317,23 @@ $(document).ready(function () {
             icon: null
         },
         {
+            name: "JAVA",
+            icon: `<i class="fa-brands fa-java fa-xl"></i>`
+        },
+        {
             name: "RESTful APIs",
             icon: `<i class="fa-solid fa-server"></i>`
         },
         {
+            name: "GRAPHQL APIs",
+            icon: `<i class="fa-solid fa-server"></i>`
+        },
+        {
             name: "MS SQL",
+            icon: `<i class="fas fa-database"></i>`
+        },
+        {
+            name: "POSTGRESQL",
             icon: `<i class="fas fa-database"></i>`
         },
         // {
